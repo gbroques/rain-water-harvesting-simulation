@@ -50,6 +50,12 @@ storage sizing include (pg. 45 - 46):
   * **Empirical relationship methods** - empirical relationships are used to describe the sizing of rainwater tanks. Parameters used typically
 include **rainfall**, **water demand**, and **roof area**.
   * **Stochastic parametric and non-parametric methods** - which use stochastic techniques to simulate important parameters in tank design, for which data is missing or incomplete.
-  * **Continuous mass balance simulation of the tank inflow and outflow** - mass balances typically represent the inflow, outflow, and losses of the tank in order to characterize the tank size. The models may use different
-time scales and algorithmic models (yield before spillage and yield after spillage) to
-estimate tank sizes.
+  * **Continuous mass balance simulation of the tank inflow and outflow** - mass balances typically represent the inflow, outflow, and losses of the tank in order to characterize the tank size. The models may use different time scales and algorithmic models (yield before spillage and yield after spillage) to estimate tank sizes.
+
+## Development of a Computer Model for Domestic Rainwater Harvesting System
+
+### Abstract
+Develop a computer model named RAINMOD capable of performing comprehensive analysis for rooftop rainwater
+harvesting system.
+
+**Modeling & Simulation Approach:** Model utilized the concept of two-state Markov chains and Gamma distribution for generating daily rainfall from historic daily, monthly and mean monthly rainfall data which was then utilized for sizing of storage tank and prediction of performance parameters.
