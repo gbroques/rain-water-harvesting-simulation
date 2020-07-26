@@ -10,3 +10,46 @@
 * [Development of a Computer Model for Domestic Rainwater Harvesting System](https://www.ijert.org/research/development-of-a-computer-model-for-domestic-rainwater-harvesting-system-IJERTV4IS090312.pdf)
 * [Optimal sizing of rainwater harvesting systems for domestic water usages: A systematic literature review](https://www.sciencedirect.com/science/article/pii/S2590289X20300049)
 * [A Novel Approach for Communal Rainwater Harvesting for Single-Family Housing: A study of Tank Size, Reliability, and Costs](https://vtechworks.lib.vt.edu/bitstream/handle/10919/97580/Semaan_M_D_2020.pdf?sequence=1&isAllowed=y)
+
+## A Model for Simulating Rainwater Harvesting Systems with Closed Tanks
+
+### Abstract
+A model for simulating the performance of rainwater harvesting systems that uses covered water storage tanks is presented. The model explicitly takes into account the fluctuations in the annual rainfall. The importance of such simulation is that they can provide an essential information for evaluating the possible role of rainwater harvesting in meeting the water needs of rural communities lying in arid and semi-arid regions.
+
+### Research Questions
+* For a given demand of water what should be the size of rainwater
+harvesting system which can meet this demand, with the desired degree of
+reliability? (pg. 5)
+* To what extent, and with what
+degree of reliability, can a given system meet a fixed demand? (pg. 5)
+
+**Key Point:** We would like to answer these questions *before building* a
+rainwater harvesting system because it's the answers to these questions that will determine the advisability of building such systems in the first place.
+
+Often such estimates are made on the basis of some simple characteristics of the rainfall data, like its mean, but such characterizations are inadequate when the rainfall shows a *large degree of annual fluctuation*.
+
+**Modeling & Simulation Approach**: Monte-Carlo Simulation
+
+## A Novel Approach for Communal Rainwater Harvesting for Single-Family Housing: A study of Tank Size, Reliability, and Costs
+
+### Abstract
+A novel approach to communal RWH for single-family houses. Instead of the traditional communal approach to RWH which uses only one storage location, we propose connecting multiple single-family homes' RWHSs to a communal backup tank, i.e., capturing overflow from multiple RWHS, which will increase reliability and water demand met in a way that will significantly improve the current performance of communal RWH. The proposed system will potentially maximize the availability of potable water while limiting spillage and overflow.
+
+### Research Questions
+1. What sizing model can describe the new communal rainwater harvesting system? (pg. 20)
+2. How will this proposed storage by the new sizing model affect reliability of the system compared to the reliability of the original setup, and what is the optimal number of connected systems? (pg. 20)
+3. What is the total cost of ownership associated with this new communal system of connecting multiple RWHS to a communal backup tank? (pg. 20)
+
+### Interesting Notes
+* **Tanks are the costliest individual component of the system** since they account for 30% of the whole-of-life costs (Gurung et al. 2012) (pg. 45)
+* Simulations have shown that installed tanks can be oversized with respect to demand (Ward et al. 2010), and thus to optimize lifecycle costs, care should be taken to correctly size the system to **[(1)]** **decrease the cost** associated with an oversized
+tank and **[(2)]** to **avoid increasing water age** (Wales 2006) (pg. 45)
+
+* Different types of models to simplify the evaluation and design of RWHS with a specific focus on the task of
+storage sizing include (pg. 45 - 46):
+  * **Empirical relationship methods** - empirical relationships are used to describe the sizing of rainwater tanks. Parameters used typically
+include **rainfall**, **water demand**, and **roof area**.
+  * **Stochastic parametric and non-parametric methods** - which use stochastic techniques to simulate important parameters in tank design, for which data is missing or incomplete.
+  * **Continuous mass balance simulation of the tank inflow and outflow** - mass balances typically represent the inflow, outflow, and losses of the tank in order to characterize the tank size. The models may use different
+time scales and algorithmic models (yield before spillage and yield after spillage) to
+estimate tank sizes.
