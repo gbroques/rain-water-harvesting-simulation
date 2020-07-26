@@ -59,3 +59,9 @@ Develop a computer model named RAINMOD capable of performing comprehensive analy
 harvesting system.
 
 **Modeling & Simulation Approach:** Model utilized the concept of two-state Markov chains and Gamma distribution for generating daily rainfall from historic daily, monthly and mean monthly rainfall data which was then utilized for sizing of storage tank and prediction of performance parameters.
+
+## Modelling of a roof runoff harvesting system: The use of rainwater for toilet flushing
+
+![Flowchart for rainwater tank storage model](rainwater-tank-storage-model.png)
+
+**Modeling & Simulation Approach:** Equation & flow-chart based.
