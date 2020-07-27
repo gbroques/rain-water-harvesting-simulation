@@ -73,12 +73,17 @@ harvesting system.
 **Modeling & Simulation Approach:** Three methods are used within the design evaluation, two of which are based on the approach developed by Fewkes (1999), which built on an original concept devised by Jenkins et al. (1978). The core of this approach is a water mass balance in the form:
 
 V<sub>t</sub> = V<sub>t - 1</sub> + Q<sub>t</sub> - D<sub>t</sub>
+
 Subject to 0 <= V<sub>t</sub> <= S
 
 Where:
+
 V<sub>t</sub> - (Rain) Water in storage at end of time interval, t
+
 Q<sub>t</sub> - Inflow during time interval, t
+
 D<sub>t</sub> - Demand during time interval, t
+
 S - Storage capacity
 
 From this the 'yield-after-spill' and 'yield-before-spill' (YBS) operating rules were developed (Fewkes & Butler 2000), which take the form (for YAS and YBS respectively):
@@ -86,6 +91,7 @@ From this the 'yield-after-spill' and 'yield-before-spill' (YBS) operating rules
 ![yas ybs equations](./yas-ybs-equations.png)
 
 where:
+
 Y<sub>t</sub> - Yield from store during time interval, t
 
 The YAS and YBS rules determine the position of supply, demand and overflow in the calculation of storage volume. Fewkes & Butler (2000) undertook extensive analysis of the YAS and YBS algorithms which led to the derivation of capacity-demand and catchment-rainfall ratios (called the demand fraction and storage fraction, respectively. From this research it was concluded that the YAS operating rule (with an hourly or daily rainfall time.
