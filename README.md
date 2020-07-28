@@ -96,4 +96,19 @@ Y<sub>t</sub> - Yield from store during time interval, t
 
 The YAS and YBS rules determine the position of supply, demand and overflow in the calculation of storage volume. Fewkes & Butler (2000) undertook extensive analysis of the YAS and YBS algorithms which led to the derivation of capacity-demand and catchment-rainfall ratios (called the demand fraction and storage fraction, respectively. From this research it was concluded that the YAS operating rule (with an hourly or daily rainfall time.
 
- Method 1 is based on the YAS approach in the form of a continuous simulation which can utilise daily rainfall and demand time series.
+Method 1 is based on the YAS approach in the form of a continuous simulation which can utilise daily rainfall and demand time series.
+
+## Data
+Hourly precipitation was received from:
+https://www.ncdc.noaa.gov/cdo-web/search
+
+and saved in [2228731.csv](./2228731.csv).
+
+|Field|Data|
+|-----|----|
+|Locations|CITY:US290021|
+|Begin Date|2010-01-01 00:00|
+|End Date|2013-12-23 23:59|
+|Data Types|HPCP|
+|Units|Metric|
+|Custom Flag(s)|Station NameGeographic LocationInclude Data Flags|
