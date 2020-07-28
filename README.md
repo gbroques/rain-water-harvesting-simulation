@@ -112,3 +112,5 @@ and saved in [2228731.csv](./2228731.csv).
 |Data Types|HPCP|
 |Units|Metric|
 |Custom Flag(s)|Station NameGeographic LocationInclude Data Flags|
+
+The same data in **Standard** (instead of *Metric*) was saved in [2228739.csv](./2228739.csv) for convenience.
