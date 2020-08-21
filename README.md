@@ -45,12 +45,37 @@ A novel approach to communal RWH for single-family houses. Instead of the tradit
 * Simulations have shown that installed tanks can be oversized with respect to demand (Ward et al. 2010), and thus to optimize lifecycle costs, care should be taken to correctly size the system to **[(1)]** **decrease the cost** associated with an oversized
 tank and **[(2)]** to **avoid increasing water age** (Wales 2006) (pg. 45)
 
+> Elevated nutrient loadings, particularly of phosphorus, can result in **eutrophication** of
+  an open storage in which cyanobacteria (also called blue-green algae) can bloom and
+  *anaerobic conditions develop* (Wales 2006) (pg. 44).
+
+[Eutrophication](https://en.wikipedia.org/wiki/Eutrophication) is when a body of water becomes overly enriched with minerals and nutrients which induce excessive growth of algae (Wikipedia).
+
+> **The risk of eutrophication is higher if the water is stored for
+  long periods** *and nutrients are not removed or reduced by the treatment process* (pg. 44). 
+
+> Anaerobic conditions can develop in all storages, especially where elevated loads of
+organic matter occur with inadequate aeration. This is because the bacteria that break
+down organic matter consume the available dissolved oxygen faster than it can be
+replenished from the atmosphere. This may be a greater problem in underground tanks
+than in open storages. Management options include reducing the loads of organic matter
+before storage by installing a gross pollutant trap and not operating the scheme during
+periods of limited demand and long retention times (e.g. winter). (Wales 2006) (pg 45)
+
 * Different types of models to simplify the evaluation and design of RWHS with a specific focus on the task of
 storage sizing include (pg. 45 - 46):
   * **Empirical relationship methods** - empirical relationships are used to describe the sizing of rainwater tanks. Parameters used typically
 include **rainfall**, **water demand**, and **roof area**.
   * **Stochastic parametric and non-parametric methods** - which use stochastic techniques to simulate important parameters in tank design, for which data is missing or incomplete.
   * **Continuous mass balance simulation of the tank inflow and outflow** - mass balances typically represent the inflow, outflow, and losses of the tank in order to characterize the tank size. The models may use different time scales and algorithmic models (yield before spillage and yield after spillage) to estimate tank sizes.
+
+> Anaerobic conditions can develop in all storages, especially where elevated loads of
+organic matter occur with inadequate aeration. This is because the bacteria that break
+down organic matter consume the available dissolved oxygen faster than it can be
+replenished from the atmosphere. This may be a greater problem in underground tanks
+than in open storages. Management options include reducing the loads of organic matter
+before storage by installing a gross pollutant trap and not operating the scheme during
+periods of limited demand and long retention times (e.g. winter). 
 
 ## Development of a Computer Model for Domestic Rainwater Harvesting System
 
