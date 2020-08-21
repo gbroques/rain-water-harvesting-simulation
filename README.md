@@ -77,6 +77,8 @@ than in open storages. Management options include reducing the loads of organic 
 before storage by installing a gross pollutant trap and not operating the scheme during
 periods of limited demand and long retention times (e.g. winter). 
 
+https://www1.health.gov.au/internet/main/publishing.nsf/Content/0D71DB86E9DA7CF1CA257BF0001CBF2F/$File/enhealth-raintank.pdf
+
 ## Development of a Computer Model for Domestic Rainwater Harvesting System
 
 ### Abstract
